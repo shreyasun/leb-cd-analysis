@@ -6,9 +6,9 @@ To analyze and understand the patterns, trends, and relationships between the li
 ### Background
 Life expectancy (commonly measured as *life expectancy at birth*) is a statistical measure of the average lifespan for a specific region for some time. Global life expectancy, which collectively considers individuals from all genders, classes, and locations, has increased throughout human history. This is due to a variety of reasons, including but not limited to advances in public health, reduced rates of infant and child mortality, and higher standards of life. However, major discrepancies and inequalities in the average lifespan are evident when comparing factors such as an individual's access to medical care, economic circumstances, diet, poverty, gender, genetics, and more. 
 
-A non-communicable disease (aka *NCD*) is a disease that is not directly transmissible from one person to another, so is not usually infectious. NCDs are the leading cause of death globally; some NCD examples include Parkinson's disease, Alzheimer's disease, autoimmune diseases, strokes, heart diseases, cancers, diabetes, and more. While many NCDs are considered preventable, there are certainly risk factors that increase the chance and prevalence of these diseases, including blood pressure, cholesterol, tobacco use, alcohol consumption, weight, and genetics. Social determinants of health could also be risk factors for NCDs.
+A communicable disease (aka *CD*) is a disease that is .....
 
-So now we have a measure of lifespan and the leading cause of death. What are some observations we can make about these, and what patterns and trends amongst lifespan and non-communicable death mortality rates can we observe?
+So now we have a measure of lifespan and the leading cause of death. What are some observations we can make about these, and what patterns and trends amongst lifespan and communicable death mortality rates can we observe?
 
 ### Available Data
 
@@ -71,12 +71,28 @@ Based on insights from SQL queries.
 
 - **What is the median life expectancy for each country in 2019, and how does it compare to the mean?**
 
-#### Non-Communicable Diseases Mortality Rate Dataset
-- **What country had the lowest mortality rate by NCDs in 2019?**
+#### Communicable Diseases Mortality Rate Dataset
+- **What country had the lowest mortality rate by CDs in 2019?**
+
+  2000: Hungary (1.82%)
   
-- **What country had the highest mortality rate by NCDs in 2019?**
+  2010: Hungary (1.50%)
   
-- **How has the mortality rate by NCDs increased or decreased for each country from 2000 to 2019?**
+  2015: Finland (1.21%)
+  
+  2019: North Macedonia (1.28%)
+  
+- **What country had the highest mortality rate by CDs in 2019?**
+
+- 2000: Zimbabwe (78.64%)
+  
+  2010: Chad (69.34%)
+  
+  2015: Nigeria (66.47%)
+  
+  2019: Nigeria (65.21%)
+  
+- **How has the mortality rate by CDs increased or decreased for each country from 2000 to 2019?**
   
 - **What country has the largest change (increase or decrease) in mortality rate from NCD's from 2000 to 2019?**
   
@@ -97,8 +113,8 @@ Both datasets are from the World Bank Open Data, a database that provides free o
 
 Life Expectancy: [Life expectancy at birth, total (years)](https://data.worldbank.org/indicator/SP.DYN.LE00.IN)
 
-Non-Communicable Diseases Mortality Rate Dataset: [Cause of death, by non-communicable diseases (% of total)](https://data.worldbank.org/indicator/SH.DTH.NCOM.ZS)
+Communicable diseases: [Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total)](https://data.worldbank.org/indicator/SH.DTH.COMM.ZS)
 
 [About Life Expectancy](https://en.wikipedia.org/wiki/Life_expectancy)
 
-[About NCDs](https://en.wikipedia.org/wiki/Non-communicable_disease)
+[About CDs]()
