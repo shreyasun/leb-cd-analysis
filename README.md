@@ -1,6 +1,6 @@
 # Data Analysis Project - Exploring Global Trends in Life Expectancy and Mortality Rates from Communicable Diseases
 
-#### Objective
+### Objective
 To analyze and understand the patterns, trends, and relationships between the life expectancy and mortality rates from communicable diseases of all countries and regions worldwide across several years. This project aims to highlight global health disparities through understanding the potential associations with a country's rate of mortality from communicable diseases and its average life expectancy.
 
 ### Background
@@ -12,7 +12,10 @@ So now we have a measure of lifespan and the cause of death. What are some obser
 
 ### Available Data
 
-The data for LEB's and CD's comes from the World Bank Open Data, a database that provides free open-source datasets related to global development. Specifically, I utilized [Life expectancy at birth, total (years)](https://data.worldbank.org/indicator/SP.DYN.LE00.IN) and [Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total)](https://data.worldbank.org/indicator/SH.DTH.COMM.ZS) datasets for this project. The available data in both datasets are only for the years 2000, 2010, 2015, and 2019.
+The data for LEB's and CD's comes from the World Bank Open Data, a database that provides free open-source datasets related to global development. Specifically, I utilized [Life expectancy at birth, total (years)](https://data.worldbank.org/indicator/SP.DYN.LE00.IN) and [Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total)](https://data.worldbank.org/indicator/SH.DTH.COMM.ZS) datasets for this project. The columns in both datasets are: `Country Name`, and years from 1960-2019; however, most of the columns did not have data, so I removed those column. The datasets now only include the columns `2000`,	`2010`,	`2015`,	and `2019`.
+
+I cleaned the datasets by removing rows where the `Country Name` was a continent, region of multiple countries, territory, or otherwise not included in the list of 197 [United Nations's member states](https://www.un.org/en/about-us/member-states). In addition, I also removed rows of countries where there were no data for any of the years. 
+* [Life expectancy at birth, total (years)](https://data.worldbank.org/indicator/SP.DYN.LE00.IN): Andorra, ... did not have any data.
 
 ### Data Exploration
 
@@ -31,7 +34,7 @@ Based on insights from SQL queries.
 
   **Insights:** For at least the past 20 years, the countries with the lowest expectancy at birth have all been situated in Africa, where individuals in these countries are expected to live 40-50 years, well below the global LEB averages of those years. In fact, the bottom 10 countries in terms of life expectancy are all situated in Africa in 2010 and 2019.
 
-- **Percent Change in lowest life expectancy from 2000 - 2019 (2000, 2010, 2015, 2019)**
+- **Percent Change in lowest life expectancy from 2000 - 2019.**
 
   44.518 years -> 52.91 years: 18.85%
 
@@ -47,7 +50,7 @@ Based on insights from SQL queries.
 
   **Insights:** For at least the past 20 years, Japan has continuously been the country with the highest life expectancy at birth, where individuals are on average expected to live more than 80 years. 
   
-- **Percent Change in highest life expectancy from 2000 - 2019 (2000, 2010, 2015, 2019).**
+- **Percent Change in highest life expectancy from 2000 - 2019.**
 
   81.37 years -> 85.18 years: 4.68%
 
@@ -61,15 +64,25 @@ Based on insights from SQL queries.
 
   2019: 72.48 years
 
-- **Percent Change in average life expectancy from 2000 - 2019 (2000, 2010, 2015, 2019).**
+- **Percent Change in average life expectancy from 2000 - 2019.**
 
   66.75 years -> 72.48 years: 8.59%
 
-- **Country has the largest change in life expectancy from 2000 to 2019?**
+- **Country has the largest change in life expectancy from 2000 to 2019.**
 
   Malawi has the largest change in life expectancy from 2000 to 2019, starting from 41.52 years in 2000 to 64.12 years in 2019. This is a 44.03% increase in life expectancy over the past 20 years.
 
   Other notable insights: 2 countries, Venezuela and the Bahamas, experienced declines in their life expectancies. Venezuela's life expectancy in 2000 was 72.48 years as compared to the life expectancy of 72.16 in 2019, a 0.43% decrease. The Bahamas's life expectancy in 2000 was 72.041 years as compared to the life expectancy of 71.205 in 2019, a 1.16% decrease.
+
+**Countries where life expectancy decreased from 2000 to 2019.**
+
+Bahamas: 72.041 ->	71.205
+
+Venezuela: 72.478 -> 72.161
+
+**Number of countries where life expectancy is above global average in 2019.**
+
+
 
 #### Communicable Diseases Mortality Rate Dataset
 - **Country with the lowest mortality rate by CD's per year (2000, 2010, 2015, 2019)?**
