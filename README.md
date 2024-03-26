@@ -16,7 +16,7 @@ The data for LEB's and CD's comes from the World Bank Open Data, a database that
 
 I cleaned the datasets by removing rows where the `Country Name` was a continent, region of multiple countries, territory, or otherwise not included in the list of 197 [United Nations's member states](https://www.un.org/en/about-us/member-states). In addition, I also removed rows of countries where there were no data for any of the years. 
 * [Life expectancy at birth, total (years)](https://data.worldbank.org/indicator/SP.DYN.LE00.IN): Andorra did not have data.
-* [Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total)]: Andorra, Dominica, St. Kitts and Nevis, Liechtenstein, Monaco, Marshall Islands, Nauru, Palau, San Marino, Tuvalu, Kosovo did not have data.
+* [Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total)](https://data.worldbank.org/indicator/SH.DTH.COMM.ZS): Andorra, Dominica, St. Kitts and Nevis, Liechtenstein, Monaco, Marshall Islands, Nauru, Palau, San Marino, Tuvalu, Kosovo did not have data.
 
 ### Data Exploration
 
