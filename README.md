@@ -15,7 +15,8 @@ So now we have a measure of lifespan and the cause of death. What are some obser
 The data for LEB's and CD's comes from the World Bank Open Data, a database that provides free open-source datasets related to global development. Specifically, I utilized [Life expectancy at birth, total (years)](https://data.worldbank.org/indicator/SP.DYN.LE00.IN) and [Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total)](https://data.worldbank.org/indicator/SH.DTH.COMM.ZS) datasets for this project. The columns in both datasets are: `Country Name`, and years from 1960-2019; however, most of the columns did not have data, so I removed those column. The datasets now only include the columns `2000`,	`2010`,	`2015`,	and `2019`.
 
 I cleaned the datasets by removing rows where the `Country Name` was a continent, region of multiple countries, territory, or otherwise not included in the list of 197 [United Nations's member states](https://www.un.org/en/about-us/member-states). In addition, I also removed rows of countries where there were no data for any of the years. 
-* [Life expectancy at birth, total (years)](https://data.worldbank.org/indicator/SP.DYN.LE00.IN): Andorra, ... did not have any data.
+* [Life expectancy at birth, total (years)](https://data.worldbank.org/indicator/SP.DYN.LE00.IN): Andorra did not have data.
+* [Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total)]: Andorra, Dominica, St. Kitts and Nevis, Liechtenstein, Monaco, Marshall Islands, Nauru, Palau, San Marino, Tuvalu, Kosovo did not have data.
 
 ### Data Exploration
 
