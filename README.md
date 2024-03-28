@@ -117,7 +117,8 @@ Based on insights from SQL queries.
   Nepal. In 2000, Nepal experienced a mortality rate of 57.939% from communicable diseases. In 2019, Nepal experienced a mortality rate of 24.821% from communicable diseases. This is a 33.118% decrease in mortality rates from communicable diseases.
 
 - **Which country experienced the highest increase in mortality rate by CDs between 2000 to 2019?**
-  Greece. In 2000, Nepal experienced a mortality rate of 3.917% from communicable diseases. In 2019, Nepal experienced a mortality rate of 12.855% from communicable diseases. This is a 8.937% increase in mortality rates from communicable diseases.
+
+   Greece. In 2000, Nepal experienced a mortality rate of 3.917% from communicable diseases. In 2019, Nepal experienced a mortality rate of 12.855% from communicable diseases. This is a 8.937% increase in mortality rates from communicable diseases.
 
 - **What is the global average mortality rate by CDs for each year (2000, 2010, 2015, 2019)?**
 
