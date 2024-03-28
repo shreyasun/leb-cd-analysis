@@ -41,49 +41,55 @@ Based on insights from SQL queries.
 
 - **Country with the highest average life expectancy for each year (2000, 2010, 2015, 2019)**
 
-  2000: Highest overall: Gibraltar (81.37 years), Country with the highest leb: Japan (81.076 years).
+  2000: Japan (81.076 years)
   
-  2010: Highest overall: Gibraltar (81.37 years), Country with the highest leb: Japan (81.076 years).
+  2010: Japan (82.843 years)
   
-  2015: Highest overall: Hong Kong SAR (84.278 years), Country with the highest leb: Japan (83.79 years).
+  2015: Japan (83.794 years)
   
-  2019: Highest overall: Hong Kong SAR (85.18 years), Country with the highest leb: Japan (84.356 years).
+  2019: Japan (84.356 years)
 
   **Insights:** For at least the past 20 years, Japan has continuously been the country with the highest life expectancy at birth, where individuals are on average expected to live more than 80 years. 
   
 - **Percent Change in highest life expectancy from 2000 - 2019.**
 
-  81.37 years -> 85.18 years: 4.68%
+  81.076 years -> 84.356 years: 4.046%
 
 - **Average life expectancy globally for each year (2000, 2010, 2015, 2019).**
 
-  2000: 66.75 years
+  2000: 66.404 years
 
-  2010: 70.02 years
+  2010: 69.739 years
 
-  2015: 71.5 years
+  2015: 71.26 years
 
-  2019: 72.48 years
+  2019: 72.257 years
 
 - **Percent Change in average life expectancy from 2000 - 2019.**
 
-  66.75 years -> 72.48 years: 8.59%
+  66.404 years -> 72.257 years: 8.814%
 
 - **Country has the largest change in life expectancy from 2000 to 2019.**
 
   Malawi has the largest change in life expectancy from 2000 to 2019, starting from 41.52 years in 2000 to 64.12 years in 2019. This is a 44.03% increase in life expectancy over the past 20 years.
 
-  Other notable insights: 2 countries, Venezuela and the Bahamas, experienced declines in their life expectancies. Venezuela's life expectancy in 2000 was 72.48 years as compared to the life expectancy of 72.16 in 2019, a 0.43% decrease. The Bahamas's life expectancy in 2000 was 72.041 years as compared to the life expectancy of 71.205 in 2019, a 1.16% decrease.
+  Other notable insights: 2 countries, Venezuela and the Bahamas, experienced declines in their life expectancies. Venezuela's life expectancy in 2000 was 72.478 years as compared to the life expectancy of 72.161 in 2019, a 0.437% decrease. The Bahamas's life expectancy in 2000 was 72.041 years as compared to the life expectancy of 71.205 in 2019, a 1.16% decrease.
 
 **Countries where life expectancy decreased from 2000 to 2019.**
 
-Bahamas: 72.041 ->	71.205
+Bahamas: 72.041 ->	71.205 (-1.16%)
 
-Venezuela: 72.478 -> 72.161
+Venezuela: 72.478 -> 72.161 (-0.437%)
 
 **Number of countries where life expectancy is above global average in 2019.**
 
+2000: 114/189
 
+2010: 109/189
+
+2015: 105/189
+
+2019: 102/189
 
 #### Communicable Diseases Mortality Rate Dataset
 - **Country with the lowest mortality rate by CD's per year (2000, 2010, 2015, 2019)?**
