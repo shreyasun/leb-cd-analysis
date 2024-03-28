@@ -77,48 +77,48 @@ Based on insights from SQL queries.
 
 - **Countries where life expectancy decreased from 2000 to 2019.**
 
-Bahamas: 72.041 ->	71.205 (-1.16%)
-
-Venezuela: 72.478 -> 72.161 (-0.437%)
+  Bahamas: 72.041 ->	71.205 (-1.16%)
+  
+  Venezuela: 72.478 -> 72.161 (-0.437%)
 
 - **Number of countries where life expectancy is above global average in 2019.**
 
-2000: 114/189
-
-2010: 109/189
-
-2015: 105/189
-
-2019: 102/189
+  2000: 114/189
+  
+  2010: 109/189
+  
+  2015: 105/189
+  
+  2019: 102/189
 
 #### Communicable Diseases Mortality Rate Dataset
 - **Country with the lowest mortality rate by CD's per year (2000, 2010, 2015, 2019)?**
 
-  2000: Hungary (1.82%)
+  2000: Hungary (1.818%)
   
   2010: Hungary (1.50%)
   
-  2015: Finland (1.21%)
+  2015: Finland (1.209%)
   
-  2019: North Macedonia (1.28%)
+  2019: North Macedonia (1.284%)
   
 - **Country with the highest mortality rate by CD's per year (2000, 2010, 2015, 2019)?**
 
-  2000: Zimbabwe (78.64%)
+  2000: Zimbabwe (78.637%)
   
   2010: Chad (69.34%)
   
   2015: Nigeria (66.47%)
   
-  2019: Nigeria (65.21%)
+  2019: Nigeria (65.208%)
   
 - **How has the mortality rate by CDs increased or decreased for each country from 2000 to 2019?**
+
+  
   
 - **What country has the largest change (increase or decrease) in mortality rate from NCD's from 2000 to 2019?**
   
-- **What is the global change in mortality rate by NCDs from 2000 to 2019?**
-
-- **What is the median change in mortality rate by NCDs for each country in 2019, and how does it compare to the mean?**
+- **What is the global change in mortality rate by CDs from 2000 to 2019?**
 
 #### Joining Both Datasets
 
