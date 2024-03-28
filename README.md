@@ -75,13 +75,13 @@ Based on insights from SQL queries.
 
   Other notable insights: 2 countries, Venezuela and the Bahamas, experienced declines in their life expectancies. Venezuela's life expectancy in 2000 was 72.478 years as compared to the life expectancy of 72.161 in 2019, a 0.437% decrease. The Bahamas's life expectancy in 2000 was 72.041 years as compared to the life expectancy of 71.205 in 2019, a 1.16% decrease.
 
-**Countries where life expectancy decreased from 2000 to 2019.**
+- **Countries where life expectancy decreased from 2000 to 2019.**
 
 Bahamas: 72.041 ->	71.205 (-1.16%)
 
 Venezuela: 72.478 -> 72.161 (-0.437%)
 
-**Number of countries where life expectancy is above global average in 2019.**
+- **Number of countries where life expectancy is above global average in 2019.**
 
 2000: 114/189
 
