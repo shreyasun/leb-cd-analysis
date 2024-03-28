@@ -145,6 +145,11 @@ Based on insights from SQL queries.
 - **What is the average life expectancy of countries in 2019 where the mortality rate decreased by more than 20% between 2000 and 2019?**
 
 ### Data Visualization
+View visualizations [here]()!
+1. Global Averages - Life Expectancy
+2. Global Averages - Communicable Disease Mortality Rates
+3. World Map - Life Expectancy
+4. World Map - Communicable Disease Mortality Rates
 
 ### Analysis
 
