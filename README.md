@@ -156,10 +156,12 @@ Based on insights from SQL queries.
 View visualizations [here]()!
 1. Global Averages - Life Expectancy
 2. Global Averages - Communicable Disease Mortality Rates
-3. World Map - Life Expectancy
-4. World Map - Communicable Disease Mortality Rates
-5. World Map - Communicable Disease Life Expectancy Increases Between 2000 and 2019
-6. World Map - Communicable Disease Mortality Rate Decreases Between 2000 and 2019
+3. World Map - Life Expectancy Per Country, 2000
+4. World Map - Life Expectancy Per Country, 2019
+5. World Map - Communicable Disease Mortality Rates, 2000
+6. World Map - Communicable Disease Mortality Rates, 2019
+7. World Map - Communicable Disease Life Expectancy Increases Between 2000 and 2019
+8. World Map - Communicable Disease Mortality Rate Decreases Between 2000 and 2019
 
 ### Analysis
 
