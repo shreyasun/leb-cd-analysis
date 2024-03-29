@@ -136,13 +136,21 @@ Based on insights from SQL queries.
 
 #### Joining Both Datasets
 
-- **In which countries did the life expectancy increase and mortality rate decrease from 2000 to 2019?**
+- **In how many countries did the life expectancy increase and mortality rate from communicable diseases decrease from 2000 to 2019?**
+
+  About 146 out of 183 countries experienced an increase in life expectancy and decrease in mortality rate from communicable diseases.
   
-- **In which countries did the life expectancy decrease and mortality rate increase from 2000 to 2019?**
+- **In how many countries did the life expectancy decrease and mortality rate increase from 2000 to 2019?**
+
+  0.
   
-- **What is the average life expectancy of countries in 2019 where the mortality rate increased by more than 5% between 2000 and 2019.?**
+- **What is the average life expectancy of countries in 2019 where the mortality rate increased by more than 5% between 2000 and 2019?**
+
+  79.961
 
 - **What is the average life expectancy of countries in 2019 where the mortality rate decreased by more than 20% between 2000 and 2019?**
+
+  71.97
 
 ### Data Visualization
 View visualizations [here]()!
@@ -150,6 +158,8 @@ View visualizations [here]()!
 2. Global Averages - Communicable Disease Mortality Rates
 3. World Map - Life Expectancy
 4. World Map - Communicable Disease Mortality Rates
+5. World Map - Communicable Disease Life Expectancy Increases Between 2000 and 2019
+6. World Map - Communicable Disease Mortality Rate Decreases Between 2000 and 2019
 
 ### Analysis
 
